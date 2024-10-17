@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+:root {
+  --color--one: #9f224e;
+  --color--title: #222222;
+  --color--second: #757575;
+  --color--third: #e5e5e5;
+  --color--four: #429bda;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.section {
+  width: 100%;
+  float: left;
+}
+html{
+  scroll-behavior: smooth;
+}
+label {
+  cursor: default;
+}
+img {
+  border: 0;
+  font-size: 0;
+  line-height: 0;
+  max-width: 100%;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: var(--color--title);
+  font: 400 15px arial;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+}
+.container {
+  width: 100%;
+  max-width: 1130px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+a {
+  color: var(--color--title);
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.ic {
+  width: 16px;
+  height: 16px;
+  fill: #757575;
+  display: inline-block;
+  vertical-align: middle;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+input[type="text"],
+input[type="number"] select {
+  width: 100%;
+  height: 40px;
+  float: left;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  margin: 0;
+  color: #4f4f4f;
+}
+.hidden{
+  display: none !important;
+}
+.sticky-nav {
+  top: 0 ;
+  position: sticky ;
+  left: 0;
+}
