@@ -635,9 +635,8 @@ input:checked + .slider::before {
 .main-nav .parent li:hover a {
   color: var(--color--one);
 }
-.main-nav .parent .all-menu:hover a i{
+.main-nav .parent .all-menu:hover a i {
   color: var(--color--one);
-
 }
 .main-nav .parent .kinhdoanh:hover a {
   color: #0675bd;
@@ -680,10 +679,10 @@ input:checked + .slider::before {
 }
 
 .main-nav .parent .thethao:hover a {
-  color: #65B136;
+  color: #65b136;
 }
 .main-nav .parent .thethao:hover .sub {
-  border-top-color: #65B136;
+  border-top-color: #65b136;
 }
 .main-nav .parent .dulich:hover a {
   color: #0675bd;
@@ -739,6 +738,162 @@ input:checked + .slider::before {
   right: 0;
 }
 /* Navigation end  */
+
+/* begin body video */
+.nav-video {
+  display: flex;
+}
+.nav-video .text {
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.container {
+  max-width: 1100px;
+}
+.div-video {
+  width: 1100px;
+  height: 539.2px;
+  margin-top: 20px;
+  border-top: 0.5px solid #cf0f0f;
+}
+.div-video::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 1100px;
+  height: 0.5px;
+  bottom: 5px;
+  left: 0;
+  background-color: rgb(210, 207, 207);
+}
+
+.box-video {
+  margin: 0;
+  width: 100%;
+  height: 458.3px;
+  display: flex;
+  /* overflow: hidden; */
+}
+.box-video::-webkit-scrollbar {
+  width: 5px;
+  height: 203.43px;
+}
+
+.left-box {
+  width: 720px;
+  height: 458px;
+}
+.right-box {
+  margin: 0px 20px;
+  width: 380px;
+  height: 458px;
+}
+.box-video .left-box .video-main {
+  width: 720px;
+  height: 405px;
+  margin-top: 0px;
+}
+.box-video .video-main video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 0px;
+}
+.box-video .left-box .content-video {
+  width: 720px;
+  height: auto;
+
+  padding-top: 15px;
+}
+.box-video .left-box .content-video h1 {
+  margin-top: 4px;
+  width: 720px;
+  height: 38.4px;
+  font-size: 24px;
+  font-family: serif;
+}
+
+.box-video .right-box {
+  width: 345px;
+  height: 458px;
+  /* background-color: rgb(183, 214, 156); */
+}
+
+.right-box .menu-video .option-video {
+  width: 345.2px;
+  height: 71.5px;
+  display: flex;
+  position: relative;
+  margin-bottom: 33px;
+}
+
+/* thanh cuộn video */
+.right-box .menu-video {
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-right: -25px;
+}
+
+.menu-video {
+  max-height: 100%; /* Đặt chiều cao tối đa cho menu-video */
+  overflow-y: auto; /* Tạo thanh cuộn dọc khi nội dung bị tràn */
+}
+
+/* Tùy chỉnh thanh cuộn */
+.menu-video::-webkit-scrollbar {
+  width: 5px;
+  height: 180px;
+}
+
+.menu-video::-webkit-scrollbar-track {
+  background: white;
+}
+
+.menu-video::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+  border-radius: 20px;
+}
+
+/*END thanh cuộn video */
+
+.right-box .menu-video .option-video .left-option {
+  width: 120px;
+  height: 67.5px;
+  margin-top: 4px;
+  display: flex;
+}
+.right-box .menu-video .option-video .right-option {
+  width: 225.2px;
+  height: 67.5px;
+  margin-top: 4px;
+  display: block;
+}
+
+.right-box .menu-video .option-video video {
+  width: 120px;
+  height: 67.5px;
+  object-fit: cover;
+}
+.right-box .option-video .right-option a {
+  display: block;
+  font-size: 18px;
+  font-family: serif;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.option-video ::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 0.5px;
+  bottom: -20px;
+  left: 0;
+  background-color: rgb(214, 214, 214);
+}
+
+/* end body */
 
 /* /* design footer * */
 .footer .container {
