@@ -15,7 +15,7 @@
   width: 100%;
   float: left;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 label {
@@ -37,6 +37,13 @@ body {
   position: relative;
 }
 .container {
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.container-extra {
   width: 100%;
   max-width: 1130px;
   margin-left: auto;
@@ -71,11 +78,16 @@ input[type="number"] select {
   margin: 0;
   color: #4f4f4f;
 }
-.hidden{
+.hidden {
   display: none !important;
 }
 .sticky-nav {
-  top: 0 ;
-  position: sticky ;
+  top: 0;
+  position: sticky;
   left: 0;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.flex-box {
+  display: flex;
+  justify-content: space-between;
 }
