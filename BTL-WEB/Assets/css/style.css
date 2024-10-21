@@ -752,6 +752,10 @@ input:checked + .slider::before {
   font-size: 20px;
 }
 
+.section-19 .header-part:hover {
+  color: pink;
+}
+
 .section-19 .iner {
   padding: 0px 15px;
   /* margin-bottom: 20px; */
