@@ -754,17 +754,6 @@ input:checked + .slider::before {
   width: 1100px;
   height: 539.2px;
   margin-top: 20px;
-  border-top: 0.5px solid #cf0f0f;
-}
-.div-video::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 1100px;
-  height: 0.5px;
-  bottom: 5px;
-  left: 0;
-  background-color: rgb(210, 207, 207);
 }
 
 .box-video {
@@ -2378,7 +2367,7 @@ input:checked + .slider::before {
 /* xem nhieu */
 
 .section-19 .header-part-seen {
-  border-bottom: 1px solid #e5e5e5 ;
+  border-bottom: 1px solid #e5e5e5;
   height: 30px;
   font-weight: bold;
   font-family: "Merriweather", serif;
@@ -2388,8 +2377,6 @@ input:checked + .slider::before {
   font-size: 20px;
   margin-bottom: 12px;
 }
-
-
 
 .section-19 .box-seen-main-fix {
   display: flex;
@@ -2416,13 +2403,12 @@ input:checked + .slider::before {
   margin-bottom: 15px;
 }
 
-
 .section-19 .box-seen-branch:nth-child(7) {
-  border-bottom: 0px ;
+  border-bottom: 0px;
   margin-bottom: 0;
 }
 .section-19 .box-seen-branch:nth-child(8) {
-  border-bottom: 0px ;
+  border-bottom: 0px;
   margin-bottom: 0px;
 }
 
@@ -2442,7 +2428,7 @@ input:checked + .slider::before {
 }
 
 .section-19 .box-seen-branch-text {
-  width: 90%; 
+  width: 90%;
   font-size: 15px;
   font-family: "Merriweather", serif;
   display: flex;
