@@ -2126,8 +2126,6 @@ input:checked + .slider::before {
 }
 /* section-7  end*/
 
-/* section-8*/
-
 .section-8 .container-extra {
   padding-top: 20px;
   background-color: white;
@@ -2148,6 +2146,9 @@ input:checked + .slider::before {
   margin-top: 15px;
 }
 /* section-8  end*/
+
+
+
 /* section-9*/
 .section-9 .wrap {
   box-sizing: border-box;
@@ -2397,6 +2398,8 @@ input:checked + .slider::before {
 /* section-10  end*/
 
 /* section-19 */
+
+
 
 .section-19 .header-part {
   height: 30px;
