@@ -2384,6 +2384,13 @@ input:checked + .slider::before {
   color: #BDBDBD;
   
 }
+.section-10 .wrap-title .inner-top > a .title-news:hover{
+  color: var(--color--four);
+}
+.section-10 .wrap-title .inner-top .topic:hover a{
+  color: var(--color--four); 
+
+}
 .section-10 .wrap-title .inner-bottom {
   padding: 25px;
   height: 50%;
