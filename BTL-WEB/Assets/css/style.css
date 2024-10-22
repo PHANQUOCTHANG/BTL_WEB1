@@ -1985,6 +1985,8 @@ input:checked + .slider::before {
   border-radius: 20px;
 }
 
+
+
 /*END thanh cuộn video */
 
 .right-box .menu-video .option-video .left-option {
