@@ -2751,6 +2751,32 @@ input:checked + .slider::before {
   height: 60%;
 }
 
+.section-19 .text-header>a {
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.section-19 .text-header>a:hover {
+  color : var(--color--four) ;
+}
+
+.section-19 .topic-nav >li>a:hover {
+  color : #B52759 ;
+}
+
+.section-19 .text-info>a:hover {
+  color : var(--color--four) ;
+}
+
+.section-19 .box-sk-text>a:hover {
+  color : var(--color--four) ;
+}
+
+.section-19 .box-seen-branch-text>a:hover {
+  color : var(--color--four) ;
+}
+
 /* Ảnh */
 
 /* section-19 end */
@@ -2807,6 +2833,10 @@ input:checked + .slider::before {
   margin-top: 10px;
   font-size: 14px;
   font-family: "Merriweather", serif;
+}
+
+.section-20 .text>a:hover {
+  color : var(--color--four) ;
 }
 
 /* section - 20 end */
