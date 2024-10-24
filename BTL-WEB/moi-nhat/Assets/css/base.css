@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 :root {
   --color--one: #9f224e;
   --color--title: #222222;
@@ -69,8 +69,8 @@ h1 {
   margin: 0;
   padding: 0;
 }
-input[type='text'],
-input[type='number'] select {
+input[type="text"],
+input[type="number"] select {
   width: 100%;
   height: 40px;
   float: left;
@@ -115,7 +115,7 @@ input[type='number'] select {
   color: var(--color--second);
 }
 .topic-nav li:first-child a {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 18px;
   color: var(--color--title);
   display: inline-block;
@@ -164,7 +164,7 @@ input[type='number'] select {
   padding: 0 !important;
 }
 .box-main::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   height: 0.5px;
@@ -189,7 +189,7 @@ input[type='number'] select {
   font-size: 15px;
   color: var(--color--title);
   font-weight: 700;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   line-height: 25px;
   transition-duration: 200ms;
   transition-property: all;
@@ -236,11 +236,11 @@ a {
   font-size: 14px;
   color: var(--color--title);
   font-weight: 700;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   line-height: 25px;
 }
 .box-sub .title-news a::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   height: 7px;
@@ -277,20 +277,19 @@ a {
   font-size: 15px;
   font-weight: 700;
   padding-bottom: 10px;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   transition: 0.4s;
 }
 .list-item-feature .title-news a {
   margin: 0;
   padding: 0;
 }
-.inner-topstory{
+.inner-topstory {
   padding-left: 15px;
-
 }
-.list-item-feature img{
+.list-item-feature img {
   width: 141px;
-  height: 235px ;
+  height: 235px;
 }
 
 /* bộc ảnh */
@@ -304,7 +303,7 @@ a {
   font-size: 20px;
   font-weight: 700;
   padding-bottom: 10px;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   transition: 0.4s;
 }
 .item-news .wrap-title .description,
@@ -339,6 +338,15 @@ a {
   color: var(--color--four);
 }
 /* phần lựa chọn trang */
+.inner-topstory {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 20px;
+  position: relative;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+
+}
 .page-selection {
   display: flex;
   align-items: center;
@@ -348,12 +356,12 @@ a {
 .page-selection .date {
   color: var(--color--second);
 }
-.page-selection .date i{
+.page-selection .date i {
   margin-right: 5px;
 }
 .page-selection .date:hover a,
-.page-selection .date:hover i{
-  color: var(--color--four) ;
+.page-selection .date:hover i {
+  color: var(--color--four);
 }
 .page-selection .wrap-pagenumber {
   display: flex;
@@ -379,8 +387,6 @@ a {
 .page-selection .wrap-pagenumber .box:first-child {
   background-color: var(--color--one);
 }
-.page-selection .wrap-pagenumber .box:first-child a{
-  color: white ;
-
+.page-selection .wrap-pagenumber .box:first-child a {
+  color: white;
 }
-

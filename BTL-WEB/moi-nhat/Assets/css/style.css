@@ -1167,10 +1167,10 @@ input:checked + .slider::before {
 }
 .section-sub .col-left .item-news .inner-wrap{
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   
 }
-.section-sub .col-left .item-news span{
+.section-sub .col-left .item-news > span{
   display: block;
   font-size: 14px;
   /* margin-bottom: 10px; */
