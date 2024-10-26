@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí</title>
+    <style>
+        table,
+        tr,
+        td {
+            border: solid 1px black;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Đăng kí tài khoản</h1>
+    </header>
+    <main>
+        <form action="">
+            <table>
+                <tr>
+                    <td>Họ tên: </td>
+                    <td>
+                        <input type="text" id="HoTen">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Số điện thoại: </td>
+                    <td>
+                        <input type="text" id="SoDienThoai">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td>
+                        <input type="text" id="Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mật khẩu: </td>
+                    <td>
+                        <input type="password" id="PassWord">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Xác nhận mật khẩu: </td>
+                    <td>
+                        <input type="password" id="XacNhanMatKhau">
+                        <br>
+                        <input type="checkbox" id="ShowPassWord" onclick="showPass()"> Hiện mật khẩu
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" value="Đăng kí" onclick="CheckThongTin()">
+                    </td>
+                </tr>
+            </table>
+            <p id="ShowThongTin">
+            </p>
+        </form>
+    </main>
+    <script>
+        function CheckThongTin() {
+            // Họ tên không rỗng
+            // và họ tên chứa dấu cách
+            var name = document.getElementById("HoTen").value;
+            // Số điện không rỗng, phải là số
+            // và tuân thủ mẫu là 1 số điện thoại:
+            // 0123 345 678
+            // (+84) 234 564 245
+            var phone = Number(document.getElementById("SoDienThoai").value);
+            // email không rỗng và đúng định dạng
+            var email = document.getElementById("Email").value;
+            var testEmail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            // mật khẩu không trống và không chứa dấu cách trống
+            // mật khẩu có độ dài tối thieeut 5 kí tự
+            var pass = document.getElementById("PassWord").value;
+            // xác nhận mật khẩu không trống và trùng với mật khẩu
+            var confirmPass = document.getElementById("XacNhanMatKhau").value;
+
+            if (name == "")
+                alert("Họ tên không được rỗng");
+            else if (phone == "" || Number.isInteger(phone) == false)
+                alert("Định dạng số điện thoại sai");
+            else if (email == "" || testEmail.test(email) == false)
+                alert("Định dạng email sai");
+            else if (pass == "" || pass.includes(" ") == true)
+                alert("Định dạng passWord sai");
+            else if (confirmPass == "" || confirmPass != pass)
+                alert("Xác nhận mật khẩu sai");
+            else {
+                alert("Đăng nhập thành công");
+                var info = "Họ tên: " + name + "</br>" + "Số điện thoại: " + phone;
+                document.getElementById("ShowThongTin").innerHTML = info;
+            }
+        }
+
+        function showPass() {
+            if (document.getElementById("ShowPassWord").checked == true) {
+                document.getElementById("PassWord").type = "text";
+                document.getElementById("XacNhanMatKhau").type = "text";
+            } else {
+                document.getElementById("PassWord").type = "password";
+                document.getElementById("XacNhanMatKhau").type = "password";
+            }
+        }
+    </script>
+</body>
+
+</html>
