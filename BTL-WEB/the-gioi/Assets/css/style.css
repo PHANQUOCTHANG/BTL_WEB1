@@ -2346,6 +2346,9 @@ p {
   -ms-flex-align: center;
   align-items: center;
 }
+.footer .inner-footer p{
+  color: var(--color--title);
+}
 .footer .inner-main .right-flexbox .txt-follow {
   margin-left: 10px;
   padding-left: 10px;

@@ -3141,6 +3141,9 @@ p {
   margin-top: 15px;
   margin-bottom: 20px;
 }
+.footer .inner-footer p{
+  color: var(--color--title);
+}
 /* end footer  */
 .move-to-top {
   position: fixed;
