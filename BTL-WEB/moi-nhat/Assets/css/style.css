@@ -1032,6 +1032,7 @@ input:checked + .slider::before {
 .section-1 .topic:hover a {
   color: var(--color--four);
 }
+
 /* section-1  end*/
 /* section-2*/
 .section-2 {
@@ -1280,6 +1281,16 @@ input:checked + .slider::before {
   margin-bottom: 20px;
   position: absolute;
   bottom: 0;
+}
+.section-sub .col-right .topic-laodong_vieclam {
+  margin-top: 20px;
+  
+  
+}
+.section-sub .col-right .topic-mekong {
+  margin-top: 20px;
+  
+  
 }
 /* section-3  end*/
 /* section-4*/
