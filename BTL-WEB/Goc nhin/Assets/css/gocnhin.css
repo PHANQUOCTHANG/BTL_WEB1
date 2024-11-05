@@ -1,5 +1,9 @@
 /* section-1 */
 
+/* a {
+  cursor: pointer;
+} */
+
 .section-goc-nhin .iner-main-item1 input {
   width: 100%;
   height: 40px;
@@ -36,7 +40,7 @@
   top : 70px;
   width: 15%;
   height: 100% ;
-  z-index: 1000;
+  z-index: 50 ;
 }
 .section-goc-nhin .iner-main-item2 {
   width: 55%;
