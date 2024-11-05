@@ -2098,6 +2098,9 @@ p {
   vertical-align: middle;
   color: var(--color--second);
 }
+.footer .inner-footer p{
+  color: var(--color--title);
+}
 .footer .inner-main .right-flexbox .icon-facebook:hover {
   color: #3b5999;
 }
