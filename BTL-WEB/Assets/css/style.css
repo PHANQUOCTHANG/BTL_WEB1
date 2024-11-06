@@ -362,6 +362,8 @@ input:checked + .slider::before {
   display: flex;
   /* align-items: center; */
 }
+
+
 .header .right .btn24hqua {
   position: relative;
 }
@@ -2274,7 +2276,6 @@ p {
 }
 
 .section-19 .text-header {
-  height: 30%;
   font-weight: bold;
   font-size: 19px;
   font-family: "Merriweather", serif;
@@ -2424,8 +2425,7 @@ p {
 .section-19 .text .text-header {
   font-weight: bold;
   font-size: 15px;
-  height: 35%;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-family: "Merriweather", serif;
 }
 
