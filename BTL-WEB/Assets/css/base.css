@@ -8,6 +8,7 @@
   --color--four: #429bda;
 }
 * {
+  max-width: 100vw;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -29,6 +30,7 @@ img {
   max-width: 100%;
 }
 body {
+  overflow-x: hidden;
   font-family: Arial, sans-serif;
   color: var(--color--title);
   font: 400 15px arial;
@@ -38,6 +40,7 @@ body {
   position: relative;
 }
 .container {
+  
   width: 100%;
   max-width: 1100px;
   margin-left: auto;
@@ -82,6 +85,25 @@ input[type="number"] select {
 .hidden {
   display: none !important;
 }
+.wrap_main_nav{
+  position: relative;
+  z-index: 1000;
+}
+.show-all-menu{
+  top: calc(100% - 3px) ;
+  visibility: visible ;
+  opacity: 1 ;
+}
+.no-scroll {
+  overflow: hidden;
+}
+.change_color_1{
+  color: #bdbdbd;
+} 
+.change_color_2{
+  color: var(--color--one) !important;
+} 
+
 .sticky-nav {
   top: 0;
   position: sticky;
