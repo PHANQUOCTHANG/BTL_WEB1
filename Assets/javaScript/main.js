@@ -105,6 +105,8 @@ close_btn.addEventListener("click", function () {
       nav.classList.remove("change_color_1"); // Áp dụng lớp cho từng <li>
     });
     document.body.classList.remove("no-scroll");
+    exit_icon.classList.add("hidden");
+    allMenuIcon.classList.remove("hidden");
   } else {
     showAllMenu.classList.add("show-all-menu");
     navItems.forEach(function (nav) {

@@ -3502,7 +3502,10 @@ p {
 
 
 
-
+.footer .inner-top .title .inner-menu-item a{
+  color: var(--color--title);
+  font-weight: bold;
+}
 /* //responsive  */
 @media screen and (max-width: 1369px) {
   .main-nav .parent {
@@ -4154,11 +4157,6 @@ p {
   .footer .inner-menu-footer {
     padding-left: 25px;
   }
-  .footer .inner-menu-footer:first-child .inner-menu-item:nth-child(6),
-  .footer .inner-menu-footer:first-child .inner-menu-item:nth-child(7),
-  .footer .inner-menu-footer:first-child .inner-menu-item:nth-child(8) {
-    display: none;
-  }
   .footer .inner-contact .download-app .left {
     margin-right: 100px;
   }
@@ -4170,6 +4168,9 @@ p {
     text-align: center;
   }
   .use__podcast{
+    display: flex;
+  }
+  .footer__title{
     display: flex;
   }
 }
