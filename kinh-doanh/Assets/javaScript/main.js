@@ -61,4 +61,27 @@ function sticky_bannerAd() {
   console.log("chiều cao hiện tại:" + window.pageYOffset);
 }
 
+function displayDate() {
+  const today = new Date();
+  const days = [
+    "Chủ Nhật",
+    "Thứ Hai",
+    "Thứ Ba",
+    "Thứ Tư",
+    "Thứ Năm",
+    "Thứ Sáu",
+    "Thứ Bảy",
+  ];
+
+  const dayName = days[today.getDay()];
+  const day = today.getDate();
+  const month = today.getMonth() + 1; // Tháng trong JavaScript bắt đầu từ 0
+  const year = today.getFullYear();
+
+  const dateString = `${dayName}, Ngày ${day}/${month}/${year}`;
+  document.querySelector(".time-now").innerText = dateString;
+}
+
+// Gọi hàm khi trang tải
+displayDate();
 
