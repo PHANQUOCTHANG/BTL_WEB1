@@ -363,7 +363,6 @@ input:checked + .slider::before {
   /* align-items: center; */
 }
 
-
 .header .right .btn24hqua {
   position: relative;
 }
@@ -1741,7 +1740,6 @@ input:checked + .slider::before {
   /* height: 38.4px; */
   font-size: 24px;
   font-family: serif;
-  
 }
 
 .right-box .menu-video .option-video {
@@ -2279,6 +2277,7 @@ p {
   font-weight: bold;
   font-size: 19px;
   font-family: "Merriweather", serif;
+  margin-bottom: 5px;
 }
 
 .section-19 .text-data {
@@ -2418,8 +2417,8 @@ p {
 }
 
 .section-19 img {
-  width: 260px;
-  height: 156px;
+  width: 100%;
+  height: 160px;
 }
 
 .section-19 .text .text-header {
@@ -3582,7 +3581,10 @@ p {
     margin-bottom: 30px;
   }
   .container .wrap .col-left {
-    padding-right: 0;
+    padding-right: 10px;
+  }
+  .section-19 .box-sk-text {
+    margin-left: 10px;
   }
 }
 
@@ -3724,6 +3726,23 @@ p {
   .section-9 .wrap .col-right {
     display: none;
   }
+
+  .section-9 .wrap .col-left .topic-thugian {
+    margin-bottom: 0;
+  }
+  .section-9 .wrap .col-left .topic-sub .topic-thugian .item-news:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .section-9 .wrap .col-left .topic-ykien {
+    border-bottom: 1px solid var(--color--third);
+  }
+
+  .section-9 .wrap .col-left .topic-sub .topic-ykien .item-news:last-child {
+    margin-bottom: 0px;
+  }
+
   .section-19 .iner-wrap {
     flex-wrap: wrap;
   }
@@ -3954,7 +3973,7 @@ p {
   .inner-footer {
     justify-content: space-between;
   }
-  .footer .inner-footer{
+  .footer .inner-footer {
     flex-wrap: wrap;
   }
   .inner-footer p {
@@ -3962,10 +3981,10 @@ p {
     padding-right: 30px;
     margin-bottom: 20px;
   }
-  .footer .inner-main .right-flexbox{
+  .footer .inner-main .right-flexbox {
     flex-wrap: wrap;
   }
-  .footer .inner-main .right-flexbox a{
+  .footer .inner-main .right-flexbox a {
     width: 100%;
     padding-bottom: 15px;
   }
@@ -4075,7 +4094,33 @@ p {
     margin-right: 0px;
     margin-top: 5px;
   }
-  .container{
+  .container {
     overflow-y: hidden;
+  }
+  .section-19 .box-sk-text {
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .section-19 .box:first-child(1) {
+    margin-bottom: 20px;
+  }
+
+  .section-19 .iner-main .iner-branch {
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--color--third);
+  }
+
+  .section-20 .box {
+    padding-top: 20px;
+    border-top: 1px solid var(--color--third);
+  }
+
+  .section-20 .box:first-child {
+    border-top: 0px;
+  }
+
+  .section-20 {
+    margin-bottom: 40px;
   }
 }
