@@ -768,7 +768,7 @@ input:checked + .slider::before {
   line-height: 20px;
 }
 .wrap-title {
-  padding: 0px 0px 5px 20px;
+  padding: 0px 15px 5px 20px;
 }
 .section-1 .col-right {
   padding-left: 20px;
@@ -934,10 +934,9 @@ input:checked + .slider::before {
 }
 .section-2 .col-left .inner-main a {
   font-size: 14px;
-  padding: 0px 20px 0 10px;
+  padding: 0px 0px 0 10px;
   color: var(--color--second);
   line-height: 20px;
-  text-align: justify;
 }
 .section-2 .inner-title a:hover {
   transition: 0.4s;
@@ -3462,6 +3461,52 @@ p {
   visibility: visible;
   opacity: 1;
 }
+.use__podcast{
+  display: inline-block;
+  position: fixed;
+  background-color: #F1F1F1;
+  width: 150px;
+  height: 44px;
+  bottom: 90px;
+  border-radius: 100px;
+  right: -45px;
+  padding: 5px;
+  display: none;
+  
+}
+.use__podcast .top-podcast{
+  display: flex;
+  /* justify-content: center;  */
+  align-items: center;
+}
+.use__podcast .top-podcast .draw-circle{
+  width: 35px;
+  height: 35px;
+  background-color: #E66489;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 999;
+  margin-right: 5px;
+}
+.use__podcast .top-podcast .about p{
+  color: #626262;
+  font-size: 11px;
+  font-family: "Merriweather", serif;
+  font-weight: bolder;
+}
+
+
+
+
+
+
+.footer .inner-top .title .inner-menu-item a{
+  color: var(--color--title);
+  font-weight: bold;
+}
 /* //responsive  */
 @media screen and (max-width: 1369px) {
   .main-nav .parent {
@@ -3936,9 +3981,9 @@ p {
   .wrap-all-menu .cat-menu {
     width: 100%;
   }
-  .footer .inner-wrap {
-    display: none;
-  }
+  /* .footer .inner-wrap { */
+  /* display: none; */
+  /* } */
   .section-2 .theothao-lich .theothao-box {
     width: 50%;
   }
@@ -3974,6 +4019,7 @@ p {
     justify-content: space-between;
   }
   .footer .inner-footer {
+  .footer .inner-footer {
     flex-wrap: wrap;
   }
   .inner-footer p {
@@ -3982,8 +4028,10 @@ p {
     margin-bottom: 20px;
   }
   .footer .inner-main .right-flexbox {
+  .footer .inner-main .right-flexbox {
     flex-wrap: wrap;
   }
+  .footer .inner-main .right-flexbox a {
   .footer .inner-main .right-flexbox a {
     width: 100%;
     padding-bottom: 15px;
@@ -4094,6 +4142,7 @@ p {
     margin-right: 0px;
     margin-top: 5px;
   }
+  .container {
   .container {
     overflow-y: hidden;
   }
